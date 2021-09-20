@@ -14,6 +14,6 @@ RUN wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17977/l_Bas
      --cli \
      --eula accept \
      --intel-sw-improvement-program-consent decline \
-     --silent && \
-     /bin/rm l_BaseKit_p_2021.3.0.3219_offline.sh
+     --silent || :
+RUN  /bin/rm l_BaseKit_p_2021.3.0.3219_offline.sh
 
