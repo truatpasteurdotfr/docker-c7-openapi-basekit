@@ -1,5 +1,5 @@
 BootStrap: oras
-From: ghcr.io/truatpasteurdotfr/docker-c7-ci:latest
+From: ghcr.io/truatpasteurdotfr/singularity-docker-centos7-ci:latest
 
 %post
 yum -y update && yum -y upgrade && \
