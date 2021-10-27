@@ -10,4 +10,3 @@ RUN yum -y update && yum -y upgrade && \
 COPY oneAPI.repo /etc/yum.repos.d/oneAPI.repo
 RUN yum -y install \
         intel-basekit
-
