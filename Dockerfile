@@ -1,4 +1,4 @@
-FROM ghcr.io/truatpasteurdotfr/singularity-docker-centos7-ci::main
+FROM ghcr.io/truatpasteurdotfr/singularity-docker-centos7-ci:main
 MAINTAINER Tru Huynh <tru@pasteur.fr>
 
 RUN yum -y update && yum -y upgrade && \
